@@ -13,5 +13,11 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <distributionManagement>
+        <repository>
+            <id>my-release-repo</id>
+            <url>https://maven.pkg.github.com/psrivalli2001/Deployement_Repo</url>
+        </repository>
+    </distributionManagement>
 
 </project>
