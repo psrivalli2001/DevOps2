@@ -13,8 +13,9 @@
     </properties>
     <distributionManagement>
         <repository>
-            <id>MyRepo</id>
-            <url>http://localhost:8081/repository/MyRepo/</url>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/psrivalli2001/DevOps2</url>
         </repository>
     </distributionManagement>
 </project>
